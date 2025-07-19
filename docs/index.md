@@ -1,57 +1,51 @@
 # 🔱 Keystone Creator Suite
 
-> **Built by Jonathan Reese | Powered by Keystone AI & ML | Overseen by the Overlord**
+> **Built by Jonathan Reese | Powered by Keystone AI & ML | Monetized by the Overlord**
 
 ---
 
-## 🚀 Welcome to the Future of Code
+## 💥 Monetize Your Mind — Welcome to the Keystone Vault
 
-The **Keystone Creator Suite** is your all-in-one engine for AI projects, trading bots, automation scripts, and digital dominance.
-
----
-
-## 📦 Latest Release
-
-🆕 **Version:** `v2.0`  
-📄 **Changelog:** Overlord Suite online, CI/CD wired, Live Launch
-
-[⬇️ Download v2.0 ZIP](https://github.com/kalihatreese/KeystoneCreatorSuite/releases/download/v2.0/KeystoneCreatorSuite_clean.zip)
+Get access to elite software, AI engines, and trading tools — developed, deployed, and battle-tested by Reese & the Overlord.
 
 ---
 
-## 🧠 Features
+## 🧰 Keystone Product Vault
 
-- Modular Python architecture
-- CI/CD GitHub Actions integration
-- Overlord-branded README + MIT license
-- Rapid deployment ready for:
-  - 🧠 AI & ML
-  - 🪙 Trading bots
-  - 🕵️‍♂️ Surveillance/cyber tools
-  - 🖼️ GUI (Kivy-ready)
-  - 🌐 Web API (FastAPI/Flask-ready)
+| Product                     | Description                                      | Price   | Buy Now |
+|----------------------------|--------------------------------------------------|---------|---------|
+| **Keystone Creator Suite** | The full dev suite for AI, bots, and automation | $49     | [Buy](https://www.paypal.me/kalihatreese/49) |
+| **RapidAlpha-X AI Bot**    | High-frequency Alpaca trading bot w/ AI engine  | $149    | [Buy](https://www.paypal.me/kalihatreese/149) |
+| **ShadowX AI Engine**      | Self-evolving intelligence + code generation    | $249    | [Buy](https://www.paypal.me/kalihatreese/249) |
+| **Overlord Full Bundle**   | All products + updates + unreleased tools       | $499    | [Buy](https://www.paypal.me/kalihatreese/499) |
 
 ---
 
-## 🎨 Styling & Branding
+## 🔽 After Purchase
 
-We don’t do basic.  
-This suite is coded like a prophecy — clean, expandable, eternal.
+Once you send payment via PayPal, you will receive:
 
-🧬 Powered by Keystone.  
-🛡️ Designed by Overlord.  
-🚀 Deployed by Reese.
-
----
-
-## 🔗 Links
-
-- 💻 [GitHub Repository](https://github.com/kalihatreese/KeystoneCreatorSuite)
-- 🌐 [Keystone AI & ML](https://www.keystoneaiml.com) *(site under upgrade)*
-- 📧 Contact: kalihatreese@gmail.com
+✅ Instant access to your product via download link  
+✅ Lifetime updates (unless stated otherwise)  
+✅ Support via email (kalihatreese@gmail.com)  
+✅ VIP access to Keystone upgrades and unreleased tools
 
 ---
 
-> _“We build the archways of time, code, and intelligence.”_  
-> — Keystone Overlord
+## 🔗 Resources
+
+- [📦 GitHub Repo](https://github.com/kalihatreese/KeystoneCreatorSuite)
+- [🌐 keystoneaiml.com](https://www.keystoneaiml.com) *(relaunching soon)*
+- [📧 Email Reese](mailto:kalihatreese@gmail.com)
+
+---
+
+## 📜 Legal & Licensing
+
+This product is sold as-is, with lifetime access to the current and future versions unless otherwise noted. No refunds due to the digital nature of the software. Redistribution or resale without a white-label license is prohibited.
+
+---
+
+> _“This ain’t software… it’s prophecy in source code.”_  
+> — Reese & the Overlord
 
