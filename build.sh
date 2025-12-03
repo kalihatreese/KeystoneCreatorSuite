@@ -1,5 +1,7 @@
 #!/bin/bash
-if [ -f package.json ]; then
+if command -v wrangler >/dev/null 2>&1; then
+    wrangler publish
+elif [ -f package.json ]; then
     npm install && npm run build
 elif [ -f makefile ]; then
     make
