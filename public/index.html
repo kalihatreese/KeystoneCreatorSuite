@@ -1872,3 +1872,63 @@ function rebindBuyButtons(){
 window.addEventListener('load',rebindBuyButtons);
 </script>
 <!-- 50-50 Bubble Injection End -->
+<!-- 50-50 Bubble Injection Start -->
+<style>
+#fiftyBubble {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  background: #1a73e8;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  z-index: 9999;
+}
+#fiftyModal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.75);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+}
+#fiftyModalContent {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  height: 80%;
+}
+#fiftyModalContent iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+</style>
+<div id="fiftyBubble">50/50</div>
+<div id="fiftyModal">
+  <div id="fiftyModalContent">
+    <button onclick="document.getElementById('fiftyModal').style.display='none'">Close</button>
+    <iframe src="/50-50.js"></iframe>
+  </div>
+</div>
+<script>
+document.getElementById('fiftyBubble').addEventListener('click', function(){
+  document.getElementById('fiftyModal').style.display='flex';
+});
+function rebindBuyButtons() {
+  if(window.initStoreButtons) {
+    window.initStoreButtons();
+  }
+}
+window.addEventListener('load', rebindBuyButtons);
+</script>
+<!-- 50-50 Bubble Injection End -->
