@@ -1700,72 +1700,6 @@ async function handleEthBuy(itemId){
 }
 </script>
 <!-- ====== END: Modern 50/50 Store + Reese Effect + Truth Test ====== -->
-<!-- 50-50 Bubble Injection Start -->
-<style>
-#fiftyBubble {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 60px;
-  height: 60px;
-  background-color: #007bff;
-  border-radius: 50%;
-  color: #fff;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  z-index: 9999;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-}
-#fiftyModal {
-  display: none;
-  position: fixed;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  background-color: rgba(0,0,0,0.5);
-  z-index: 9998;
-  align-items: center;
-  justify-content: center;
-}
-#fiftyModalContent {
-  width: 80%;
-  height: 80%;
-  background-color: #fff;
-  border-radius: 10px;
-  overflow: hidden;
-  position: relative;
-}
-#fiftyModalContent iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-#fiftyModalContent button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  z-index: 10;
-}
-</style>
-
-<div id="fiftyBubble">50</div>
-<div id="fiftyModal">
-  <div id="fiftyModalContent">
-    <button onclick="document.getElementById('fiftyModal').style.display='none'">Close</button>
-    <iframe src="/50-50.js"></iframe>
-  </div>
-</div>
-
-<script>
-document.getElementById('fiftyBubble').addEventListener('click', function(){
-  document.getElementById('fiftyModal').style.display = 'flex';
-});
-</script>
-<!-- 50-50 Bubble Injection End -->
 
 <!-- 50-50 Bubble Injection -->
 <style>#fiftyBubble{position:fixed;bottom:20px;right:20px;background:#3498db;color:#fff;width:55px;height:55px;border-radius:50
@@ -1830,82 +1764,6 @@ document.getElementById('fiftyBubble').addEventListener('click', function () {
 </script>
 <!-- End Injection -->
 
-<!-- 50-50 Bubble Injection Start -->
-<style>
-#fiftyBubble{position:fixed;bottom:20px;right:10px;background:#007bff;color:#fff;padding:10px 15px;border-radius:50%;text-align:center;font-size:22px;cursor:pointer;z-index:9999;}
-#fiftyModal{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.75);display:none;align-items:center;justify-content:center;z-index:99999;}
-#fiftyModalContent{background:#fff;padding:15px;border-radius:10px;width:90%;max-width:600px;height:80%;}
-#fiftyModalContent iframe{width:100%;height:100%;border:none;}
-</style>
-<div id="fiftyBubble">50</div>
-<div id="fiftyModal">
-  <div id="fiftyModalContent">
-    <button onclick="document.getElementById('fiftyModal').style.display='none'">Close</button>
-    <iframe src="/50-50.js"></iframe>
-  </div>
-</div>
-<script>
-document.getElementById('fiftyBubble').addEventListener('click', function(){
-  document.getElementById('fiftyModal').style.display='flex';
-});
-</script>
-<!-- 50-50 Bubble Injection End -->
-<!-- 50-50 Bubble Injection Start -->
-<style>
-#fiftyBubble {
-  position: fixed;
-  bottom: 20px;
-  right: 10px;
-  background: #007bff;
-  color: #fff;
-  padding: 10px 15px;
-  border-radius: 50%;
-  text-align: center;
-  font-size: 22px;
-  cursor: pointer;
-  z-index: 9999;
-}
-#fiftyModal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.75);
-  display: none;
-  align-items: center;
-  justify-content: center;
-  z-index: 99999;
-}
-#fiftyModalContent {
-  background: #fff;
-  padding: 15px;
-  border-radius: 10px;
-  width: 90%;
-  max-width: 600px;
-  height: 80%;
-}
-#fiftyModalContent iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-</style>
-
-<div id="fiftyBubble">50</div>
-<div id="fiftyModal">
-  <div id="fiftyModalContent">
-    <button onclick="document.getElementById('fiftyModal').style.display='none'">Close</button>
-    <iframe src="/50-50.js"></iframe>
-  </div>
-</div>
-
-<script>
-document.getElementById('fiftyBubble').addEventListener('click', function() {
-  document.getElementById('fiftyModal').style.display = 'flex';
-});
-</script>
-<!-- 50-50 Bubble Injection End -->
 <!-- 50-Bubble Modal Injection Start -->
 <style>
 #fiftyBubble{position:fixed;bottom:20px;right:10px;background:#007bff;color:#fff;padding:10px 15px;border-radius:50%;text-align:center;font-size:22px;cursor:pointer;z-index:9999;}
@@ -1937,3 +1795,80 @@ function rebindBuyButtons(){
 window.addEventListener('load', rebindBuyButtons);
 </script>
 <!-- 50-Bubble Modal Injection End -->
+<!-- 50-50 Bubble Injection Start -->
+<style>
+/* Futuristic 50-50 Bubble */
+#fiftyBubble{
+  position:fixed;
+  bottom:25px;
+  right:20px;
+  background: linear-gradient(145deg, #007bff, #00d4ff); /* futuristic gradient matching page colors */
+  color:#fff;
+  font-weight:bold;
+  font-size:26px;
+  text-shadow: 0 0 10px rgba(255,255,255,0.5);
+  padding:18px 20px;
+  border-radius:50%;
+  border: 2px solid rgba(255,255,255,0.3);
+  box-shadow: 0 0 20px rgba(0,212,255,0.5), 0 5px 15px rgba(0,0,0,0.3);
+  cursor:pointer;
+  z-index:9999;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#fiftyBubble:hover{
+  transform: scale(1.15);
+  box-shadow: 0 0 30px rgba(0,212,255,0.8), 0 8px 20px rgba(0,0,0,0.35);
+}
+#fiftyModal{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.75);
+  display:none;
+  align-items:center;
+  justify-content:center;
+  z-index:99999;
+}
+#fiftyModalContent{
+  background:#111; /* dark futuristic modal */
+  padding:20px;
+  border-radius:15px;
+  width:90%;
+  max-width:600px;
+  height:80%;
+  box-shadow: 0 0 30px rgba(0,212,255,0.5);
+}
+#fiftyModalContent iframe{
+  width:100%;
+  height:100%;
+  border:none;
+  border-radius:10px;
+}
+</style>
+
+<div id="fiftyBubble">50/50</div>
+<div id="fiftyModal">
+  <div id="fiftyModalContent">
+    <button onclick="document.getElementById('fiftyModal').style.display='none'" style="float:right;padding:5px 10px;background:#007bff;color:#fff;border:none;border-radius:5px;cursor:pointer;">Close</button>
+    <iframe src="/50-50.js"></iframe>
+  </div>
+</div>
+
+<script>
+const bubble=document.getElementById('fiftyBubble');
+const modal=document.getElementById('fiftyModal');
+bubble.addEventListener('click',()=>{modal.style.display='flex';});
+
+// Rebind store buy buttons safely
+function rebindBuyButtons(){
+    if(window.initStoreButtons){window.initStoreButtons();}
+    else{console.warn('Store JS init function not found');}
+}
+window.addEventListener('load',rebindBuyButtons);
+</script>
+<!-- 50-50 Bubble Injection End -->
