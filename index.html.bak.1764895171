@@ -1,0 +1,123 @@
+<!-- 50-50 Bubble Injection Start -->
+<style>
+#fiftyBubble{position:fixed;bottom:20px;right:10px;background:#007bff;color:#fff;padding:10px 15px;border-radius:50%;text-align:center;font-size:22px;cursor:pointer;z-index:9999;}
+#fiftyModal{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.75);display:none;align-items:center;justify-content:center;z-index:99999;}
+#fiftyModalContent{background:#fff;padding:15px;border-radius:10px;width:90%;max-width:600px;height:80%;}
+#fiftyModalContent iframe{width:100%;height:100%;border:none;}
+</style>
+<div id="fiftyBubble">50</div>
+<div id="fiftyModal">
+  <div id="fiftyModalContent">
+    <button onclick="document.getElementById('fiftyModal').style.display='none'">Close</button>
+    <iframe src="/50-50.js"></iframe>
+  </div>
+</div>
+<script>
+document.getElementById('fiftyBubble').addEventListener('click', function(){
+  document.getElementById('fiftyModal').style.display='flex';
+});
+</script>
+<!-- 50-50 Bubble Injection End -->
+<style>
+#fiftyBubble{position:fixed;bottom:20px;right:10px;background:#007bff;color:#fff;padding:10px 15px;border-radius:50%;text-align:center;font-size:22px;cursor:pointer;z-index:9999;}
+#fiftyModal{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.75);display:none;align-items:center;justify-content:center;z-index:99999;}
+#fiftyModalContent{background:#fff;padding:15px;border-radius:10px;width:90%;max-width:600px;height:80%;}
+#fiftyModalContent iframe{width:100%;height:100%;border:none;}
+</style>
+
+<div id="fiftyBubble">50</div>
+<div id="fiftyModal">
+  <div id="fiftyModalContent">
+    <button onclick="document.getElementById(\"fiftyModal\").style.display=\"none\"">Close</button>
+    <iframe src="/50-50.html"></iframe>
+  </div>
+</div>
+
+<script>
+document.getElementById("fiftyBubble").addEventListener("click",function(){
+  document.getElementById("fiftyModal").style.display="flex";
+});
+function rebindBuyButtons(){
+  var buttons=document.querySelectorAll(".buy-button, [data-buy], button.buy");
+  buttons.forEach(function(b){
+    var clone=b.cloneNode(true);
+    b.parentNode.replaceChild(clone,b);
+  });
+}
+window.addEventListener("load",rebindBuyButtons);
+</script>
+<!-- 50-50 Bubble Injection Start -->
+<style>
+#fiftyBubble {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  background: var(--primary-color, #007bff); /* match your site theme */
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 22px;
+  cursor: pointer;
+  z-index: 9999;
+}
+#fiftyModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.75);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+}
+#fiftyModalContent {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  height: 80%;
+}
+#fiftyModalContent iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+</style>
+
+<div id="fiftyBubble">50</div>
+<div id="fiftyModal">
+  <div id="fiftyModalContent">
+    <button onclick="document.getElementById('fiftyModal').style.display='none'">Close</button>
+    <iframe src="/50-50.html"></iframe>
+  </div>
+</div>
+
+<script>
+(function(){
+  // remove any duplicate bubbles
+  document.querySelectorAll('#fiftyBubble').forEach((el, i)=>{ if(i>0) el.remove(); });
+  
+  // open modal
+  document.getElementById('fiftyBubble').addEventListener('click', function() {
+    document.getElementById('fiftyModal').style.display = 'flex';
+  });
+
+  // rebind all buy buttons site-wide
+  function rebindBuyButtons(){
+    var buttons = document.querySelectorAll(".buy-button, [data-buy], button.buy");
+    buttons.forEach(function(b){
+      var clone = b.cloneNode(true);
+      b.parentNode.replaceChild(clone,b);
+    });
+  }
+
+  // run on load and every 1s to catch dynamically loaded buttons
+  window.addEventListener("load", rebindBuyButtons);
+  setInterval(rebindBuyButtons, 1000);
+})();
+</script>
+<!-- 50-50 Bubble Injection End -->
